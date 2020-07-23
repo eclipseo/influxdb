@@ -3,7 +3,7 @@ package nats
 import (
 	"errors"
 
-	"github.com/nats-io/gnatsd/server"
+	server "github.com/nats-io/nats-server"
 	sserver "github.com/nats-io/nats-streaming-server/server"
 	"github.com/nats-io/nats-streaming-server/stores"
 )
